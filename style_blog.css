@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+
+body > header > h1 {
+    font-family: 'Anton' , sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    margin: 20px 30px;
+}
+header{
+    border-bottom: 2px solid black;
+    position: relative;
+    margin-block-start: -18px;
+    background-color:mediumslateblue;
+}
+
+#developer{
+    width: 1000px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+article{
+    max-width: 30%;
+    display: inline-block !important;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 4px;
+    box-shadow: 1px 2px 5px 2px black;
+    transition: box-shadow 0.5s , background-color 0.5s;
+
+
+}
+
+article:hover{
+    /*opacity: 65%;*/
+    box-shadow: 5px 5px 20px 7px black;
+    background-color:slategrey;
+}
+
+.image{
+    
+    height: 200px;
+    width: 100%;
+    background-size: cover !important;
+    background-position: center !important;
+}
+
+article > h3 {
+    margin-left: 25px;
+    text-align: center;
+}
+
+p > a {
+    color: red;
+    font-style: italic;
+    font: outline;
+    font-variant: small-caps;
+    text-decoration: none;
+}
+
+p{
+    word-spacing: 2px;
+}
+
+header > h4{
+    text-align: center;
+}
+
+.input{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 92%;    
+    border: 2px solid transparent;
+    box-shadow: 1px 2px 5px 2px black;
+}
+
+.input:focus{
+    color: black;
+    border: 2px solid transparent;
+}
+
+.main-footer{
+    text-align: center;
+}
+/*this is only for practice no implementation */
+header::before{
+    content: "";
+    display: contents;
+    width: 245px;
+    height: 11px;
+    background: black;
+    position: relative;
+    margin-top: 41px;
+    margin-left: 487px;
+}
+/*this is only to learn
+.para{
+    max-height: 250px;
+    overflow: scroll;
+}*/
